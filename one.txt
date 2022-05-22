@@ -7,7 +7,7 @@ contract MyToken {
 
     constructor() public {
         owner = msg.sender;
-        balances[owner] = 1000;
+        balances[owner] = 10000;
     }
 
     function transfer(uint amount, address recipient ) public {
@@ -17,4 +17,4 @@ contract MyToken {
         balances[msg.sender] -= amount;
         balances[recipient] += amount;
     }
-}
+} hello
