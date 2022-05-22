@@ -17,4 +17,4 @@ contract MyToken {
         balances[msg.sender] -= amount;
         balances[recipient] += amount;
     }
-} hello
+}
